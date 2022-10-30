@@ -26,7 +26,7 @@ public class Book {
         return yearOfRelease;
     }
     public String toString(){
-        return "Название произведения: " + getName() + ", Автор: " + author + ", Год издания: " + setYearOfRelease();
+        return "Название произведения: " + getName() + ", Автор: " + author.toString() + ", Год издания: " + setYearOfRelease();
     }
     public boolean equals(Object other){
         if(this == other) {
